@@ -1,7 +1,6 @@
 /* Google fonts import - Font - Inter*/
-<style>
+
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-</style>
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 
@@ -169,8 +168,7 @@ margin-top: 5px;
     padding: 10px;
     letter-spacing: 2px;
     box-shadow: 2px 2px 0px rgb(0, 0, 0, .3);
-    transition: all 0.1s;
-    top-bottom: 15px;
+    transition: all 0    top: 15px;
 
 }
 
@@ -318,14 +316,12 @@ h2 {
 }
 
 #map div {
-    
-  
-    
+    color: #fafafa;
+    background-color: rgb(150, 204, 223.6)    padding: 10px;
     text-align: center;
     /* This will not wrap on screens of less than 400px wide.
     Each div will expand to fill the available space on its row */
-  
-    
+    flex-basis: 200px;    flex-grow: 1;
     /* Creates a grid of meetup time divs over the background image */
     
 }
