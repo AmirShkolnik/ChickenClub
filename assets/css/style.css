@@ -1,0 +1,230 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+/* Asterisk wildcard selector to override default styles added by the browser */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ffa101;
+    border-bottom: solid 10px rgb(150, 204, 223, .9);
+
+}
+
+nav {
+    font-family: 'lato', sans-serif;
+    text-align: center;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+nav>a {
+    display: inline-block;
+    text-decoration: none;
+    margin: 0.5%;
+}
+
+nav>a>div {
+
+    font-size: 120%;
+    display: inline-flex;
+    color: #000000;
+    background-color: #b3dee5;
+    padding: 10px;
+    letter-spacing: 2px;
+    box-shadow: 2px 2px 0px rgb(0, 0, 0, .3);
+    transition: all 0.1s;
+
+}
+
+a>#head_img {
+
+    height: 100px;
+    display: flex;
+    transition: all 0.1s;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover>div {
+    background-color: rgb(150, 204, 223);
+}
+
+a:hover {
+    opacity: .8;
+}
+
+main {
+    margin: 0;
+}
+
+#chicken-header {
+    height: 450px;
+    width: 100%;
+    background: url("../images/chicken-specials.jpg") no-repeat center center/cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+h1 {
+
+    color: #ffffff;
+    font-size: 10vw;
+    box-shadow: 5px 0px 10px black;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 20px;
+    width: 100%;
+}
+
+#welcome {
+    border-top: 10px solid #ffffff;
+    background-color: rgb(150, 204, 223.6);
+    padding: 20px;
+}
+
+#welcome-text {
+
+    padding: 20px;
+}
+
+#welcome-text > p {
+    
+    padding: 10px;
+}
+
+#welcome-text > hr {
+margin-top: 5px;
+    border: 1px solid #ffa101;
+}
+#specials-header {
+    height: 450px;
+    width: 100%;
+    background: url("../images/bbq-chicken.jpg") no-repeat center center/cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#daily-specials {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+
+#specials {
+
+    color: #000000;
+    background-color: rgb(150, 204, 223);
+    padding: 15px;
+    text-align: center;
+    /* This will not wrap on screens of less than 400px wide.
+    Each div will expand to fill the available space on its row */
+    flex-basis: 200px;
+    flex-grow: 1;
+    /* Creates a grid of meetup time divs over the background image */
+    border: 3px solid #ffa101;
+
+}
+
+#specials > hr {
+
+margin-top: 5px;
+
+}
+
+#specials > h3 {
+
+    margin-bottom: 5px;
+}
+
+a>#img_days {
+
+    height: 200px;
+    transition: all 0.1s;
+
+}
+
+#map {
+  
+    display: flex;
+    flex-wrap: wrap;
+   margin-top: 10px;
+    
+}
+
+#map div {
+    color: #fafafa;
+    background-color: rgb(150, 204, 223.6);
+    padding: 10px;
+    text-align: center;
+    /* This will not wrap on screens of less than 400px wide.
+    Each div will expand to fill the available space on its row */
+    flex-basis: 200px;
+    flex-grow: 1;
+    /* Creates a grid of meetup time divs over the background image */
+    border-bottom: 10px solid white;
+
+}
+
+#map > #map-1 {
+
+    background: url("../images/perfect-chicken-plate.jpg") no-repeat center center/cover;
+    padding:40px;
+}
+
+#map > #map-2 {
+
+    background: url("../images/chicken-sandwich-2.jpg") no-repeat center center/cover;
+    padding:40px;
+}
+
+#map > #map-3 {
+
+    padding:40px;
+}
+
+#map > #map-3 > h2{
+
+    padding:40px;
+}
+
+/* Footer */
+#social-networks {
+    background-color: #ffa101;
+    border-top: solid 10px rgb(150, 204, 223, .9);
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+/* General styles */
+
+body {
+    margin: 0;
+    color: #000000;
+    font-family: 'lato', sans-serif;
+}
