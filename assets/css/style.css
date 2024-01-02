@@ -152,6 +152,20 @@ margin-top: 5px;
     margin-bottom: 5px;
 }
 
+#specials>a>div {
+    font-family: 'Oswald', sans-serif;
+    font-size: 120%;
+    display: inline-flex;
+    color: #000000;
+    background-color: #ffa101;
+    padding: 10px;
+    letter-spacing: 2px;
+    box-shadow: 2px 2px 0px rgb(0, 0, 0, .3);
+    transition: all 0.1s;
+    margin-top: 15px;
+
+}
+
 a>#img_days {
 
     height: 200px;
