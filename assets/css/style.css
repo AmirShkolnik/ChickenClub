@@ -267,18 +267,18 @@ body {
     font-family: 'inter', sans-serif;
 }
 
-@media screen and (max-width: 390px) {
-    /* Responsive css */
-    nav>a>div {
-    width: 20%
-   }
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 600px) {
 
-   nav>a {
-    width: 100%
-   }
+    #chicken-header {
+        max-height: 200px;
+    }
+    #map > #map-1 {
 
-   nav {
-    width: 100%
-   }
+        min-height: 200px;
+    }
     
+    footer {
+
+    }
 }
