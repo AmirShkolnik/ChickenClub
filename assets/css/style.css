@@ -267,13 +267,18 @@ body {
     font-family: 'inter', sans-serif;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 390px) {
     /* Responsive css */
-    #map-3 {
-        width: 65%;
-    }
+    nav>a>div {
+    width: 20%
+   }
 
-    #chicken-header {
-        width: 100%;
-    }
+   nav>a {
+    width: 100%
+   }
+
+   nav {
+    width: 100%
+   }
+    
 }
