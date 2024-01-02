@@ -1,5 +1,7 @@
-/* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+/* Google fonts import - Font - Inter*/
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+</style>
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 
@@ -16,7 +18,7 @@ header {
 }
 
 nav {
-    font-family: 'lato', sans-serif;
+    font-family: 'inter', sans-serif;
     text-align: center;
     padding-bottom: 5px;
     display: flex;
@@ -163,7 +165,7 @@ margin-top: 5px;
 
 #order-online>a>#order {
 
-    font-family: 'lato', sans-serif;
+    font-family: 'inter', sans-serif;
     font-size: 120%;
     display: inline-flex;
     color: #000000;
@@ -230,7 +232,7 @@ a>#img_days {
 #contact-header {
     height: 450px;
     width: 100%;
-    background: url("../images/bbq-chicken.jpg") no-repeat center center/cover;
+    background: url("../images/chicken-plate.jpg") no-repeat center center/cover;
     position: relative;
     display: flex;
     align-items: center;
@@ -262,5 +264,5 @@ a>#img_days {
 body {
     margin: 0;
     color: #000000;
-    font-family: 'lato', sans-serif;
+    font-family: 'inter', sans-serif;
 }
