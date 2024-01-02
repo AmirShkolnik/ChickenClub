@@ -91,23 +91,19 @@ h1 {
 }
 
 #welcome {
-    border-top: 10px solid #ffffff;
+    
     background-color: rgb(150, 204, 223.6);
-    padding: 20px;
-}
-
-#welcome-text {
-
-    padding: 20px;
+    padding: 10px;
+    
 }
 
 #welcome-text > p {
     
-    padding: 10px;
+    padding: 2px;
 }
 
 #welcome-text > hr {
-margin-top: 5px;
+
     border: 1px solid #ffa101;
 }
 #specials-header {
@@ -189,44 +185,48 @@ a>#img_days {
   
     display: flex;
     flex-wrap: wrap;
-   margin-top: 10px;
+    margin-top: 10px;
     
 }
 
 #map div {
-    color: #fafafa;
+    
     background-color: rgb(150, 204, 223.6);
-    padding: 10px;
     text-align: center;
     /* This will not wrap on screens of less than 400px wide.
     Each div will expand to fill the available space on its row */
     flex-basis: 200px;
     flex-grow: 1;
     /* Creates a grid of meetup time divs over the background image */
-    border-bottom: 10px solid white;
-
+    
 }
 
 #map > #map-1 {
 
     background: url("../images/perfect-chicken-plate.jpg") no-repeat center center/cover;
-    padding:40px;
+    padding:20px;
 }
 
 #map > #map-2 {
 
     background: url("../images/chicken-sandwich-2.jpg") no-repeat center center/cover;
-    padding:40px;
+    padding:20px;
 }
 
 #map > #map-3 {
 
-    padding:40px;
+    padding:10px;
 }
 
 #map > #map-3 > h2{
 
-    padding:40px;
+    color: black;
+}
+
+#map > #map-3 > hr{
+
+    border: 1px solid #ffa101;
+   
 }
 
 #contact-header {
@@ -268,7 +268,15 @@ body {
 }
 
 /* For larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 800px) {
+
+
+
+#nav-mobile {
+    display:none;
+}
+
+/* For small screens size from 600px wide and down */
+@media screen and (max-width: 600px) {
 
 #nav-desktop {
     display:none;
@@ -277,7 +285,7 @@ body {
     #nav-mobile {
     font-family: 'inter', sans-serif;
     text-align: center;
-    padding-bottom: 5px;
+    color: #000000;
     display: flex;
     align-items: center;
     text-align: center;
@@ -287,22 +295,58 @@ body {
 
 #nav-mobile>ul {
     list-style-type: none;
+    text-align: left;
+    letter-spacing: 2px;
+    line-height: 1.5em;
+}
+
+h2 {
+
+    color: black;
+    font-size: 6vw;
+ 
 }
 
     #chicken-header {
         max-height: 200px;
     }
-    #map > #map-1 {
 
-        min-height: 200px;
-    }
+    #map {
+  
+        flex-direction: column;
+    
+}
+
+#map div {
+    
+  
+    
+    text-align: center;
+    /* This will not wrap on screens of less than 400px wide.
+    Each div will expand to fill the available space on its row */
+  
+    
+    /* Creates a grid of meetup time divs over the background image */
+    
+}
+
+#map > #map-1 {
+
+    max-height: 200px;;
+}
+
+#map > #map-2 {
+    max-height: 200px;
+}
     
     #social-networks {
         align-items: center;
         flex-direction: column;
     }
 
-    #social-icons {
-        flex-direction: row;
+    #social-networks>#social-icons {
+        display: inline-flex;
+        gap: 5px;
+
     }
 }
