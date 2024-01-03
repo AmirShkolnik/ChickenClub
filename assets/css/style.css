@@ -8,6 +8,28 @@ header {
 
 }
 
+#logo {
+    font-size: 280%;
+    line-height: 75px;
+    margin: 0 0.5rem;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu>li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+
+
 #nav-desktop {
     font-family: 'inter', sans-serif;
     text-align: center;
@@ -124,12 +146,9 @@ h1 {
     background-color: rgb(150, 204, 223);
     padding: 15px;
     text-align: center;
-    /* This will not wrap on screens of less than 400px wide.
-    Each div will expand to fill the available space on its row */
     flex-basis: 200px;
     flex-grow: 1;
-    /* Creates a grid of meetup time divs over the background image */
-    border: 3px solid #ffa101;
+    border: 3px solid #ffa101;    
 
 }
 
@@ -144,29 +163,6 @@ h1 {
     margin-bottom: 5px;
 }
 
-#order-online {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
-    text-align: center;
-    justify-content: center;
-
-}
-
-#order-online>a>#order {
-
-    font-family: 'inter', sans-serif;
-    font-size: 120%;
-    display: inline-flex;
-    color: #000000;
-    background-color: #ffa101;
-    padding: 10px;
-    letter-spacing: 2px;
-    box-shadow: 2px 2px 0px rgb(0, 0, 0, .3);
-    transition: all 0.1s;
-    margin-top: 15px;
-
-}
 
 a>#img_days {
 
@@ -180,7 +176,6 @@ a>#img_days {
     display: flex;
     flex-wrap: wrap;
     margin-top: 10px;
-
 }
 
 #map div {
